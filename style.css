@@ -68,3 +68,80 @@ footer {
     background: #222;
     color: white;
 }
+
+
+
+
+
+#moduleinmodal-mimodal .mimodal {
+  max-width: 100%;
+  z-index: 200;
+  position: fixed;
+  margin: auto;
+  border-radius: 4px 4px 4px;
+}
+@media only screen and (max-width: 40em) {
+	#moduleinmodal-mimodal .mimodal{
+    background-size: cover;
+    height: auto!important;
+    }
+}
+#moduleinmodal-mimodal .mimodal-body {
+  padding: 25px 25px;
+  font-size: 0.9em;
+}
+#moduleinmodal-mimodal .mimodal-close {
+   left: -6px;
+    position: fixed;
+    text-align: center;
+    top: 4px !important;
+    width: 15px
+}
+#moduleinmodal-mimodal .mimodal-close p {
+  text-transform: capitalize;
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  box-sizing:border-box;
+  line-height: 12px;
+  border: 2px solid #ddd;
+  top: 0;
+  right: 0;
+  font-family: "Helvetica Neue",arial, sans-serif!important;
+  font-size: 9px;
+  padding: 0 3px;
+  margin: 10px 10px 0 0;
+  color: #ccc!important;
+  border-radius: 50%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#moduleinmodal-mimodal .mimodal-close p:hover {
+  border-color: #000;
+  color: #000!important;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.mim-open-button {
+  cursor: pointer;
+  background: #5BB75B;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+
+}
+.mim-open-button:hover {
+  background: #333;
+}
