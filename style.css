@@ -28,6 +28,19 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
+.btn-about {
+  background-color: #ff5a3c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-about:hover {
+  background-color: #e74c3c;
+}
 
 
 
@@ -109,4 +122,5 @@ footer {
     background: #222;
     color: white;
 }
+
 
