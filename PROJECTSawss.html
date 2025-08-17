@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSES Dashboard Story</title>
+  <link rel="stylesheet" href="../style.css"> <!-- Reuse your portfolio CSS -->
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+    header { text-align: center; margin-bottom: 30px; }
+    header h1 { font-size: 2rem; color: #333; }
+    section { margin-bottom: 40px; }
+    h2 { color: #444; margin-bottom: 10px; }
+    .kpi { background: #f4f4f4; padding: 15px; margin: 10px 0; border-radius: 8px; }
+    img, iframe { display: block; margin: 15px auto; border-radius: 10px; }
+    .caption { text-align: center; font-size: 0.9rem; color: #666; margin-top: -10px; }
+    a.back { display: inline-block; margin-top: 20px; text-decoration: none; color: #0066cc; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MSES Business Dashboard</h1>
+    <p>A data story of Micro and Small Enterprises in Kenya</p>
+  </header>
+
+  <!-- Introduction -->
+  <section>
+    <h2>Introduction</h2>
+    <p>
+      This project explores micro and small enterprises (MSEs) in Kenya using a dataset 
+      with attributes such as <i>business location, education, gender, family status, 
+      business size, employment, and economic activity</i>. 
+      The goal is to uncover patterns and build dashboards in Power BI 
+      that communicate insights for policy-makers, investors, and entrepreneurs.
+    </p>
+  </section>
+
+  <!-- Data & Methodology -->
+  <section>
+    <h2>Data & Methodology</h2>
+    <p>
+      <strong>Tools Used:</strong> Power BI, Tableau, Excel, SQL. <br>
+      <strong>Dataset:</strong> Survey data from Micro and Small Enterprises Sector (MSES). <br>
+      <strong>Approach:</strong> Data cleaning, KPI creation, and dashboard storytelling 
+      with drill-down capability.
+    </p>
+  </section>
+
+  <!-- KPIs & Insights -->
+  <section>
+    <h2>Key KPIs & Insights</h2>
+    <div class="kpi"><strong>Total Businesses:</strong> 2,000 registered enterprises</div>
+    <div class="kpi"><strong>Average Size of Business:</strong> 8 employees</div>
+    <div class="kpi"><strong>% Urban vs % Rural:</strong> Urban 49% | Rural 51%</div>
+    <div class="kpi"><strong>Average Age of Owners:</strong> 34 years</div>
+    <div class="kpi"><strong>Top Economic Activities:</strong> Agriculture, Trade, and Services</div>
+  </section>
+
+  <!-- Visual Storytelling -->
+  <section>
+    <h2>Visual Storytelling</h2>
+    <p>Dashboards were created in Power BI to bring these numbers to life:</p>
+
+    <!-- Option A: Screenshot -->
+    <img src="../assets/images/mses-overview.png" alt="MSES Overview Dashboard" width="90%">
+    <p class="caption">Figure 1: MSES overview dashboard showing distribution of businesses.</p>
+
+    <!-- Option B: Live Embed -->
+    <iframe width="100%" height="600" 
+      src="https://app.powerbi.com/view?r=YOUR_UNIQUE_ID_HERE" 
+      frameborder="0" allowFullScreen="true"></iframe>
+    <p class="caption">Interactive dashboard embedded from Power BI Service.</p>
+  </section>
+
+  <!-- Conclusion -->
+  <section>
+    <h2>Conclusion & Next Steps</h2>
+    <p>
+      This analysis highlights the importance of small enterprises in rural areas, 
+      the youth-driven entrepreneurship trend, and the dominant role of agriculture and trade. 
+      Future analysis can integrate time-series forecasting to predict growth, 
+      and clustering models to identify enterprise success patterns.
+    </p>
+  </section>
+
+  <p><a class="back" href="../index.html">← Back to Portfolio</a></p>
+</body>
+</html>
