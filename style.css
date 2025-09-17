@@ -244,7 +244,7 @@ nav ul li a:hover {
 
 
 /* Contact Section Background */
-.contact-section {
+.Contact-section {
   position: relative;
   background: url('your-background-image.jpg') center/cover no-repeat;
   color: #fff;
@@ -365,4 +365,5 @@ button:hover {
     font-size: 1.1rem;
   }
 }
+
 
