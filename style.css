@@ -207,17 +207,17 @@ nav ul li a:hover {
 /* Projects */
 .projects {
   display: grid;
-  background: rgba(60, 255, 148); /* green overlay */
+  background: rgba(40, 23, 92); /* green overlay */
   grid-template-columns: repeat(3, 1fr); /* exactly 3 columns */
   gap: 20px;
   padding: 40px;
 }
 
 .project-card {
-  background: white;
+  background: rgba(60, 23, 92);/* green new    white*/
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(196,162,245);/*(0,0,0,0.1)*/
   transition: transform 0.2s ease;
   text-align: center; /* center text inside cards */
 }
@@ -373,6 +373,7 @@ button:hover {
     font-size: 1.1rem;
   }
 }
+
 
 
 
