@@ -214,7 +214,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-  background: rgba(60, 23, 92);/* green new    white*/
+  background: rgba(229, 69, 255);/* green new    white*/
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(196,162,245);/*(0,0,0,0.1)*/
@@ -373,6 +373,7 @@ button:hover {
     font-size: 1.1rem;
   }
 }
+
 
 
 
