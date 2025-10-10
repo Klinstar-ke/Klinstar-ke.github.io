@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSES Dashboard Story</title>
+  <link rel="stylesheet" href="../style.css"> <!-- Reuse portfolio CSS -->
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+    header { text-align: center; margin-bottom: 30px; }
+    header h1 { font-size: 2rem; color: #333; }
+    section { margin-bottom: 40px; }
+    h2 { color: #444; margin-bottom: 10px; }
+    .kpi { background: #f4f4f4; padding: 15px; margin: 10px 0; border-radius: 8px; }
+    img, iframe { display: block; margin: 15px auto; border-radius: 10px; }
+    .caption { text-align: center; font-size: 0.9rem; color: #666; margin-top: -10px; }
+    a.back { display: inline-block; margin-top: 20px; text-decoration: none; color: #0066cc; }
+    nav { margin-bottom: 20px; }
+    nav a { margin-right: 15px; text-decoration: none; color: #0066cc; }
+  </style>
+</head>
+<body>
+
+ 
+<header style="
+  background: linear-gradient(rgba(0,109,119,0.7), rgba(0,109,119,0.7)), 
+              url('contact_jungle.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+">
+  <h1>THE STUDENT PERFOMANCE</h1>
+  <p>A simple analysis of the courses perfomance for Kenyan students</p>
+</header>
+
+  <!-- header style="background:  #05451a; color:white; text-align:center; padding:40px 20px;">
+    <h1>THE STUDENT PERFOMANCE</h1>
+    <p>A simple analysis of the courses perfomance for Kenyan students</p>
+  </header>
+
+  <!-- Navigation Directory -->
+  <nav style="background:#232423; color:white; text-align:left; padding:40px 20px;">
+    <a href="#overview">Page 1: Introduction</a>
+    <a href="#demographics">Page 2: Demographics</a>
+    <a href="../code/data_cleaning.py" target="_blank">Python Code</a>
+    <a href="../index.html">Back to Portfolio</a>
+  </nav>
+
+  <!-- Page 1: Introduction -->
+  <section id="Introduction">
+    <h2>Page 1: Scope of the analysis</h2>
+    <p>
+      <ul>
+	<li><strong>1. Introduction</strong></li>
+	<p>
+This analysis represents the total number of Kenyan students registered in Algerian universities during the academic year **2019/2020**, including both continuing and newly admitted students in **2020**. The dataset contains demographic and academic information about the students such as **gender, wilaya (university region), course pursued, duration of study,** and **student status** during the study period.
+
+The research focuses on examining the **distribution and demographic characteristics** of Kenyan students in Algeria to understand their academic engagement across various courses and geographical locations. The dashboard titled **“Student Distribution and Demographics”** provides an overview of the student population structure and forms the foundation for further analysis on academic performance, completion rates, and course challenges.
+	</p>
+
+	<li><strong>2. Objectives of the Study</strong></li>
+	<p>
+The main objectives driving this research include:
+	</p>
+	<ul>
+		<li>To identify the ideal undergraduate courses** for Kenyan students in Algeria — those in which students are most concentrated or have higher completion rates.</li>
+ 		<li>To determine the challenging courses** during their academic progression, particularly by identifying areas with lower representation or higher discontinuation tendencies</li>
+		<li>To examine discontinuation rates** among students, including those who may have extended their duration of study or failed to complete within the expected period.</li>
+	</ul>
+<p>
+This study, conducted in **2025**, covers data on students enrolled in **2020**, focusing on those whose academic status and course duration were known by the time of analysis.
+</p>
+
+
+	<li></strong>3. Scope and Limitations of the Study</strong></li>
+	<p>
+The research provides a descriptive analysis of the available student data and does not explore deeper causal factors affecting student performance or retention. Key limitations include:
+
+	<li>The <strong>reasons behind student dropouts or discontinuations</strong> were not captured.</li>
+	<li>External factors such as <strong>language proficiency in French</strong> —a possible major influence on student performance—were not evaluated.
+	<li></strong>Incomplete or missing data</strong> limited the comprehensiveness of the analysis.</li>
+	<li>The analysis relied solely on the available administrative data without qualitative insights from the students.</li>
+
+Despite these limitations, the study offers a valuable foundation for understanding the demographic and academic landscape of Kenyan students in Algeria.
+	</p>
+---</ul>
+
+
+
+
+
+
+<ul>
+<p>
+<li></strong>4. Student Distribution and Demographics </strong></li>
+
+<li></strong>4.1 Total Student Enrollment</strong></li>
+
+The dashboard indicates a **total of 134 Kenyan students** registered in Algerian universities for the academic year 2019/2020. This represents the overall population considered for the analysis, combining both continuing and newly admitted students.
+
+<li></strong>4.2 Distribution by Course</strong></li>
+
+The bar chart on course distribution shows that **Science Technique** is the most popular field among Kenyan students, followed by **Economics**, **Medicine**, and **SNV (Natural and Life Sciences)**.
+Other courses such as **Computer Science, Architecture, and Dr. Pharmacie** have moderate representation, while **Telecommunication Engineering, Aeronautics, Dental Surgery, and Geology** have the least number of students.
+This trend suggests that **technical and applied sciences** remain the preferred fields, likely due to their professional demand and scholarship alignment.
+
+<li></strong>4.3 Distribution by Wilaya (Region)</strong></li>
+
+The map visualization displays the geographical distribution of Kenyan students across various **Wilayas** (university regions) in Algeria. Key regions include **Algiers, Annaba, Bejaia, Blida, Oran, and Constantine**, which host most of the universities admitting international students.
+The concentration in Algiers and coastal cities indicates a preference for universities in **urban and accessible regions**, possibly due to better infrastructure and English-speaking support services.
+
+<li></strong>4.4 Gender Distribution</strong></li>
+
+The pie chart reveals a **gender imbalance**, with **males representing 58.21%** (78 students) and **females at 41.79%** (56 students).
+This shows that while female representation is substantial, **male students still dominate**, especially in technical fields like Science Technique and Engineering. The balanced ratio, however, indicates growing gender inclusivity in overseas education programs.
+
+</p>
+</ul>
+
+
+
+
+
+
+
+
+
+---
+
+### **5. Conclusion**
+<p>
+This initial analysis of Kenyan students in Algeria (2019/2020) provides an overview of their demographic and academic distribution by gender, course, and university region.
+Findings show that most Kenyan students are enrolled in **technical and scientific courses**, with notable representation in **urban Wilayas** such as Algiers and Oran.
+Future analyses, to be presented in subsequent dashboards, will expand on **course-specific performance trends**, **regional disparities**, and **student status outcomes** (active, graduated, discontinued), offering a more detailed understanding of academic success factors and challenges faced by Kenyan students abroad.
+
+    </p>
+
+    <div class="kpi"><strong>Total Businesses:</strong> 2,000 registered enterprises</div>
+    <div class="kpi"><strong>Average Size of Business:</strong> 8 employees</div>
+    <div class="kpi"><strong>% Urban vs % Rural:</strong> Urban 49% | Rural 51%</div>
+    <div class="kpi"><strong>Top Economic Activities:</strong> Agriculture, Trade, and Services</div>
+
+    <!-- Screenshot Placeholder -->
+    <img src="overview.png" alt="MSES Overview Dashboard" width="90%">
+    <p class="caption">Figure 1: Overview dashboard of MSE distribution and activities.</p>
+  </section>
+
+ 
+  <!-- Page 2: Demographics -->
+  <section id="demographics">
+  <!section>
+    <h2>Page 2: Business Demographics</h2>
+    <p>
+   
+
+<li><strong>Course Analysis Dashboard</strong></li>
+<p>
+The **Course Analysis Dashboard** provides a detailed overview of the performance and academic progression of Kenyan students studying in Algeria across different courses. The dashboard covers aspects such as **discontinuation rates**, **average duration of study**, **success rates**, and **course completion durations**. This helps identify which courses students excel in, where challenges are most evident, and the general academic outcomes for the period studied.
+</p>
+
+<li><strong> 1. Discontinuation Rate, Average Duration Completed, and Total Students by Course</strong></li>
+
+General insights.
+
+<ul>
+
+<li> Courses such as **Medicine** and **SNV (Natural and Life Sciences)** had the highest number of students (14 each), showing these are popular choices.</li>
+<li> Dr. Pharmacie** and **Hydraulics** follow with moderate enrollment levels.</li>
+<li> Courses like **Geology, Petroleum Engineering, Biomedical Engineering, and Nursing** have relatively fewer students, suggesting either specialized or limited admission slots.</li>
+<li> The **average duration completed** for most courses ranges between 4 and 6 years, aligning with typical undergraduate timelines in Algeria.</li>
+<li> some courses exhibit higher discontinuation rates**, notably **Biomedical Engineering, Geology, and Dr. Pharmacie**, indicating potential academic or adaptation challenges in these fields.</li>
+
+</ul>
+
+<li><strong>Insight:</strong></li>
+
+<p>
+High discontinuation rates in technical or health-related programs may suggest academic difficulty, inadequate preparation, or adjustment issues—possibly linked to language barriers or curriculum complexity.
+</p>
+
+
+<li><strong> 2. Success Rate by Course</li></strong>
+
+This visualization indicates the **overall success rate of students across all courses**, which stands at a **notable 100%**.
+
+While this number could be a reflection of the students who completed their courses successfully, it may also exclude those who dropped out or whose statuses were not reported. Therefore, it shows that **students who persisted to the end of their studies generally succeeded in obtaining their qualifications.**
+
+**Insight:**
+Kenyan students who complete their full academic duration in Algeria demonstrate high resilience and success potential, indicating effective adaptation and academic achievement once initial barriers are overcome.
+
+---
+<li><strong>3. Total Students by Course and Duration</li></strong>
+
+This chart shows how the **duration of study** varies by course, reflecting the length and completion rate trends:
+
+* **Economics, SNV, Telecommunication Engineering, Aeronautics, and Geology** all show **100% completion rates**, indicating strong performance and timely graduation.
+* **Architecture and Dr. Pharmacie** show longer durations (up to 7–8 years), implying extended study periods possibly due to academic workload or language adaptation.
+* **Science Technique and Medicine** have mixed completion durations, with 2–6 year spans, suggesting varying progress speeds among students.
+* **Hydraulics and Dental Surgery** display balanced durations, though a few students may have taken longer to complete.
+
+**Insight:**
+Courses with longer durations (especially Architecture and Pharmacy) could indicate either program structure differences or instances of academic repetition and deferrals. In contrast, programs like Economics and SNV appear to have smoother progression and shorter completion times.
+
+---
+
+<li><strong>4. Discontinuation Rate and Success Rate by Course</li></strong>
+
+This comparative chart highlights the relationship between **discontinuation rates** and **success rates** across all courses:
+
+* Courses such as **Economics, Aeronautics, Biomedical Engineering, French, and Geology** report **100% success rates** and minimal to zero discontinuations.
+* **Science Technique (90%)**, **Architecture (86%)**, and **Computer Science (70%)** record slight discontinuations, implying moderate challenges.
+* **Dental Surgery (50%)** and **Dr. Pharmacie (60%)** exhibit **lower success rates**, suggesting higher dropout or failure tendencies.
+
+**Insight:**
+Success rates are generally high across most disciplines, but health and engineering programs remain the most challenging. These findings emphasize the need for targeted academic support, particularly in specialized science courses where discontinuation is more pronounced.
+
+---
+
+<li><strong>5. General Observations</li></strong>
+
+* **STEM fields dominate enrollment**, reflecting Kenya’s focus on technical and scientific scholarship opportunities in Algeria.
+* **Medicine, Pharmacy, and Architecture** have extended durations and moderate discontinuation rates, highlighting the demanding nature of these programs.
+* **Economics and SNV** emerge as **most stable and successful courses**, combining timely completion with strong academic outcomes.
+* **Language-based and social science programs** (e.g., French, Economics) display high completion and success rates, possibly due to lighter technical demands or better linguistic adaptation.
+
+---
+
+### **6. Summary of Insights**
+
+| **Indicator**                     | **Observation**                                         | **Interpretation**                                                  |
+| --------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------- |
+| **Most Popular Courses**          | Medicine, SNV, Science Technique                        | High enrollment and program interest among Kenyan students          |
+| **Courses with Longest Duration** | Architecture, Dr. Pharmacie                             | Extended study time possibly due to academic or language challenges |
+| **Highest Success Rates**         | Economics, Geology, Aeronautics, Biomedical Engineering | Students show strong academic performance and adaptation            |
+| **Highest Discontinuation**       | Dental Surgery, Dr. Pharmacie, Computer Science         | Programs perceived as difficult or resource-intensive               |
+| **Overall Outcome**               | High success among completers (≈100%)                   | Persistence leads to academic success despite early challenges      |
+
+---
+
+### **Conclusion**
+
+The **Course Analysis Dashboard** provides a deeper understanding of how Kenyan students perform across various Algerian university programs. Overall, the findings reveal a **high academic success rate**, particularly among students who manage to complete their courses. However, **technical and medical fields** present greater challenges, as evidenced by extended durations and higher discontinuation rates.
+
+The results emphasize the need for **pre-departure academic preparation**, **language training**, and **continuous support systems** to enhance completion rates and academic experiences for Kenyan students studying abroad.
+
+---
+
+Would you like me to merge this section with the **previous demographic analysis** into a single, well-formatted report (with introduction, course analysis, and upcoming sections placeholders for wilaya and status outcomes)?
+It would read like a professional mini research paper.
+
+    </p>
+    <ul>
+      <li><strong>Economic Activity & Age:</strong> Most businesses are concentrated in 
+          <em>Wholesale and Retail Trade</em>, dominated by owners aged 36 and above, 
+          while younger groups (18–25) are underrepresented across most sectors.</li>
+      <li><strong>Geographic Spread:</strong> Business activity is highly concentrated 
+          in counties such as Nairobi, Mombasa, and Kiambu, with fewer businesses in 
+          sparsely populated regions like Turkana and Marsabit.</li>
+      <li><strong>Education Levels:</strong> A majority of business owners have only 
+          <em>primary or secondary education</em>. College-educated and university-educated 
+          business owners are fewer, suggesting businesses are driven more by opportunity 
+          and necessity than formal training.</li>
+      <li><strong>Gender Distribution:</strong> Female business ownership is strong, 
+          with women running slightly more businesses than men. This highlights the 
+          vital role of women in entrepreneurship.</li>
+    </ul>
+    <p><strong>Dashboard Screenshot:</strong></p>
+    <img src="Demographics1.png" alt="Business Demographics Dashboard" style="max-width:100%;border:1px solid #ccc;border-radius:10px;">
+  </section>
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- Placeholder: Page 3 and others -->
+  <section>
+    <h2>Page 3:Business Size and Employment</h2>
+
+     <p>
+     Here’s a **comprehensive and clear interpretation** of your third dashboard titled **“Regional (Wilaya) Analysis and Student Success Overview.”**
+It explains each chart and highlights the insights drawn from the data.
+
+
+<li><strong>Wilaya (Regional) Analysis Dashboard Interpretation</li></strong>
+
+The **Regional Analysis Dashboard** explores how Kenyan students studying in Algeria perform across various **Wilayas (university regions)**. It integrates information about **average study durations**, **success rates by region and gender**, **course-based performance**, and **discontinuation patterns**. The purpose is to identify whether regional or institutional contexts influence student outcomes.
+
+---
+
+<li><strong>1. Average Duration, Success Rate by Region and Gender, and Course Overview (Top-Left Panel)</li></strong>
+
+This table summarizes students’ **average duration of study**, **success rates by region**, **success rates by gender**, and **associated courses** across multiple Wilayas.
+
+**Key Observations:**
+
+* The **average study duration** across all regions is approximately **4.69 years**, showing that most students complete within the standard undergraduate time frame (4–5 years).
+* The **overall average success rate** is **86.57%**, which is considerably high, reflecting good academic performance among Kenyan students in Algeria.
+* Regions such as **Algiers, Annaba, Batna, Constantine, Guelma, and Boumerdes** record a **100% success rate**, indicating strong academic consistency and favorable institutional environments.
+* A few Wilayas—**Bejaia (92.31%)** and **Blida (83.33%)**—show slightly lower success rates, possibly due to more demanding courses or institutional/language challenges.
+* Gender-based success rates are nearly uniform, confirming **no significant gender disparity** in academic achievement.
+
+**Insight:**
+Kenyan students in Algeria generally perform well across all regions. Variations in success rates may be influenced by course concentration or specific university conditions rather than regional factors.
+
+---
+
+
+
+
+<li><strong>2. Total Students and Discontinuation Rate by Course (Top-Right Panel)</li></strong>
+
+This chart compares **total student enrollment** and **discontinuation rates** across courses.
+
+**Key Insights:**
+
+* Most courses—especially **Biomedical Engineering, Geology, French, Petroleum Engineering, and SNV**—show **nearly 100% retention**, implying strong commitment and high completion rates.
+* Courses such as **Architecture, Dr. Pharmacie, and Computer Science** show **moderate discontinuation rates**, suggesting academic or adaptation challenges.
+* **Science Technique and Economics** have minimal dropout cases, reflecting stable academic engagement.
+
+**Interpretation:**
+The discontinuation rate varies by discipline rather than region. Technical and professional programs such as **Architecture** and **Pharmacy** show higher dropout tendencies, consistent with earlier course-level analysis.
+
+---
+
+
+
+
+
+<li><strong>3. Total Students and Success Index by Wilaya (Bottom-Left Panel)</li></strong>
+
+This visualization combines the **number of students** and the **success index** across all Wilayas.
+
+**Observations:**
+
+* Most regions, including **Oran, Constantine, Blida, Bejaia, Boumerdes, and Algiers**, maintain a **success index close to 100%**, confirming high pass rates and steady completion.
+* Regions with smaller student populations, such as **Guelma, Setif, and Batna**, also report excellent outcomes, suggesting that **lower student concentration does not negatively affect performance**.
+* There is **no region showing significantly low performance**, reinforcing the idea that Kenyan students adapt well across Algerian university settings.
+
+**Insight:**
+Student success is evenly distributed across regions, with minimal disparities. This suggests effective academic integration and support structures for international students across different universities.
+
+---
+
+
+
+
+<li><strong>4. Total Students and Success Rate by Gender (Bottom-Right Panel)</li></strong>
+
+This section compares the **total number of male and female students** with their corresponding **success rates**.
+
+**Findings:**
+
+* The gender distribution is almost balanced, with **males slightly more represented** (around 58%) compared to females (42%).
+* The **success rates between male and female students are nearly identical**, with both achieving high performance levels.
+* This indicates **gender parity in academic achievement**, showing that both male and female Kenyan students adapt effectively to Algerian education systems.
+
+**Insight:**
+There is no evidence of gender bias in academic outcomes. Equal success rates suggest that support and performance are consistent across genders, which is an encouraging indicator for inclusive academic environments.
+
+---
+
+### **5. General Summary of Insights**
+
+| **Aspect**                    | **Observation**                                     | **Interpretation**                                                   |
+| ----------------------------- | --------------------------------------------------- | -------------------------------------------------------------------- |
+| **Average Study Duration**    | 4.69 years                                          | Students generally complete their degrees within standard timeframes |
+| **Overall Success Rate**      | 86.57%                                              | High academic performance across regions                             |
+| **Top-Performing Regions**    | Algiers, Annaba, Constantine, Boumerdes             | 100% success rates show favorable university environments            |
+| **Lowest-Performing Regions** | Blida (83.33%), Bejaia (92.31%)                     | Possible localized academic or adaptation challenges                 |
+| **Course Retention Patterns** | Higher discontinuation in Architecture and Pharmacy | Indicates program-specific challenges rather than regional effects   |
+| **Gender Performance**        | Males and females show equal success                | Balanced gender outcomes and strong academic inclusion               |
+
+---
+
+### **6. Conclusion**
+
+The **Regional (Wilaya) Analysis Dashboard** demonstrates that Kenyan students in Algeria achieve consistently high academic success regardless of region, gender, or institutional setting. While some minor disparities exist—especially in more technical or professional programs—overall performance remains strong.
+
+The data suggests that **regional factors have minimal impact** on academic outcomes; instead, **course type and academic rigor** play more significant roles. These insights can inform educational partnerships and support programs between Kenya and Algeria to ensure continued student success, especially in challenging disciplines.
+
+---
+
+Would you like me now to **combine all three interpretations (demographics, course analysis, and regional analysis)** into a single structured report with professional formatting — including sections like *Introduction, Objectives, Methodology, Findings, and Conclusion*?
+That would create a cohesive document ready for submission or presentation.
+s economic units, but as engines of job creation.”
+    </p>
+    <p>
+     The majority of SMEs operate without employees (1,199 businesses) compared to those with 1–49 employees (516 businesses).
+ This highlights that SMEs in Kenya are primarily self-employment ventures rather than structured job-creating enterprises. Their employment contribution is therefore limited despite their large numbers.
+    </p>
+    
+<ul>    
+<li><strong>Demographics of SME Owners:</strong>
+Ownership is dominated by individuals aged 36 years and above (over 1,000 businesses). Younger entrepreneurs, especially those aged 18–25, account for a very small share.
+ SMEs are largely run by older individuals, suggesting that youth face barriers to entry such as limited capital, business experience, or networks. Middle-aged owners (26–35, 36+) are more likely to operate businesses that employ others.</li>
+
+<li><strong>Economic Activity Distribution</strong>
+    SMEs are highly concentrated in <strong>Wholesale and Retail Trade (1,083 businesses)</strong>, while other sectors such as Agriculture (168), Food Services (152), and Manufacturing (126) are far less represented. Capital-intensive sectors like Mining and Quarrying are almost absent.
+ The SME sector is dominated by low-barrier, trade-oriented activities. This structure limits their potential to drive industrialization, value addition, and large-scale employment.
+</li>
+
+
+<li><strong>Overall Implications</strong>
+ <ul>    
+<li>SMEs in Kenya are crucial for livelihood support but struggle to transition into growth-oriented, job-creating enterprises.</li>
+<li>The dominance of older entrepreneurs and trade activities signals a need for **targeted support policies**, particularly to:</li>
+   <ul>
+    <li> Empower youth to start and scale businesses.</li>
+    <li>Encourage diversification into manufacturing and agribusiness.</li>
+    <li>Provide credit, mentorship, and training to help SMEs expand beyond survival-level operations.</li>
+   </ul>
+ </ul>
+    
+    <img src="power BI EMPLOYMENT.png" alt="MSES Overview Dashboard" width="90%">
+    <p class="caption"></p>
+  </section>
+
+
+
+
+
+
+  
+  <!-- Python code reference -->
+  <section>
+    <h2>Data Cleaning & Preparation</h2>
+    <p>
+      The raw data was cleaned and transformed in Python before being visualized in Power BI.  
+      The cleaning steps involved handling missing values, standardizing categories, 
+      and restructuring demographic variables.  
+      You can view the complete Python cleaning script here:  
+      <a href="../code/data-cleaning.py" target="_blank">View Python Code</a>
+    </p>
+  </section>
+ 
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
