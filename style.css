@@ -161,6 +161,56 @@ color:white;
 }
 
 
+
+
+
+
+
+.skills-section{
+background:#f4f6f8;
+padding:80px 20px;
+}
+
+.skills-title{
+font-size:36px;
+font-weight:700;
+color:#4f7f9a;
+}
+
+.skill-box{
+padding:30px;
+transition:0.3s;
+}
+
+.skill-icon{
+font-size:55px;
+color:#4f7f9a;
+margin-bottom:15px;
+}
+
+.skill-box h4{
+margin-top:10px;
+font-weight:600;
+color:#4f7f9a;
+}
+
+.skill-box p{
+color:#777;
+font-size:15px;
+}
+
+.skill-box:hover{
+transform:translateY(-6px);
+}
+
+.skill-link{
+text-decoration:none;
+color:inherit;
+}
+
+
+
+
 /* ---------------- PROJECTS ---------------- */
 
 .projects{
@@ -378,3 +428,4 @@ font-size:28px;
 }
 
 }
+
