@@ -179,10 +179,15 @@ nav ul li a:hover {
   background-color: #e74c3c;
 }
 
+
+
+
 /* About Page */
 .about-section {
   display: flex;
+  flex-direction: column;   /* stacks items vertically */
   align-items: center;
+  text-align: center;
   padding: 40px;
   max-width: 600px;
   margin: auto;
@@ -191,12 +196,21 @@ nav ul li a:hover {
 .about-photo {
   width: 200px;
   border-radius: 10px;
-  margin-right: 20px;
+  margin-bottom: 20px;   /* space between photo and text */
 }
 
 .about-text {
   max-width: 500px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -419,6 +433,7 @@ button:hover {
   }
 
 }
+
 
 
 
